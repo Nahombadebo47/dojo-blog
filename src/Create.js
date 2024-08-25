@@ -4,6 +4,8 @@ const Create = () => {
     const [body, setBody] = useState('');
     const [author, setAuthor] = useState('Mario')
     const handleSubmit = (e) => {
+        e.preventDefault();
+        const blog = { title, body, author }
     }
 
     return (
