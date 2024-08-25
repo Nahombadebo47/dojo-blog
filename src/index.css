@@ -118,3 +118,36 @@
   border-radius: 8px;
   cursor: pointer;
 }
+
+/* CSS for NotFound component */
+.not-found {
+  text-align: center;
+  margin-top: 100px;
+  font-family: Arial, sans-serif;
+}
+
+.not-found h2 {
+  font-size: 3rem;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.not-found p {
+  font-size: 1.5rem;
+  color: #666;
+  margin-bottom: 30px;
+}
+
+.not-found a {
+  font-size: 1.2rem;
+  color: #fff;
+  background-color: #f1356d;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.not-found a:hover {
+  background-color: #0056b3;
+}
